@@ -6,8 +6,8 @@ max_step = 10
 f_a = a
 f_b = b
 xm = (a + b) / 2
-f_xm = xm
 for k in range(max_step):
+    f_xm = xm
     if (b - a > sigma):
 
         print('Номер итерации: -- ', k)
