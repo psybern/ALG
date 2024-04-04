@@ -8,8 +8,8 @@ f_b = b
 xm = (a + b) / 2
 f_xm = xm
 while k < max_step:
-    if (b - a > sigma) and (k < max_step):
-        c = xm
+    if (b - a > sigma) :
+    
         print('Номер итерации: -- ', k)
     else:
         if f_a * f_b <= 0:
